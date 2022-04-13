@@ -9,3 +9,14 @@ Run the simulation in headless mode:
 ```
 cat A_1-rwy_v10.cfg | java -jar JaamSim2022-02.jar -s -h
 ```
+
+To use flask app:
+```
+export FLASK_APP=app
+flask run
+```
+
+To test:
+```
+curl http://127.0.0.1:5000/
+```
